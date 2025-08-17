@@ -8,6 +8,10 @@ disqusShortname = "unknownunknown"
 
 [permalinks]
     post = "blog/:year/:month/:day/:title/"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
     facebook = "gantir"
@@ -20,7 +24,7 @@ disqusShortname = "unknownunknown"
     ga = "UA-893783-6"
     hostname = "ramjeeganti.com"
     comments = true
-    
+
 [author]
     name = "Ramjee Ganti"
     image = "https://ramjeeganti.com/images/mug-shot.jpg"
