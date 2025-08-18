@@ -1,0 +1,31 @@
+baseURL = "https://ramjeeganti.com/"
+languageCode = "en-us"
+title = "rAmg"
+theme = "crisp"
+metaDataFormat = "yaml"
+enableRobotsTXT = true
+disqusShortname = "unknownunknown"
+
+[permalinks]
+    post = "blog/:year/:month/:day/:title/"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    facebook = "gantir"
+    twitter = "gantir"
+    linkedin = "gantir"
+    github = "gantir"
+    gplus = "113134532290747889683"
+    description = "personal webspace of Ramjee Ganti"
+    email = "site@ramjeeganti.com"
+    ga = "UA-893783-6"
+    hostname = "ramjeeganti.com"
+    comments = true
+
+[author]
+    name = "Ramjee Ganti"
+    image = "https://ramjeeganti.com/images/mug-shot.jpg"
+    description = "finding the meaning of 42."
